@@ -1,0 +1,41 @@
+.card {
+	display: inline-block;
+	width: 100px;
+  background: white;
+	background: -webkit-radial-gradient(whitesmoke, white);
+	height: 150px;
+	border: solid 1px #333;
+	border-radius: 5px;
+	margin: 10px;
+	position: relative;
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+.redCard {
+	color: red;
+}
+
+.blackCard {
+  color: black;
+}
+
+.mainNumber {
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0px auto;
+	margin-top: 50px;
+}
+
+.topLeftSymbol {
+  position: absolute;
+ top: 0;
+ left: 2px;
+}
+
+.bottomRightSymbol {
+  position: absolute;
+  bottom: 0;
+  right: 2px;
+  transform: rotate(180deg);
+}

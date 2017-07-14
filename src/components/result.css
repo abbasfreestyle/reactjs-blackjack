@@ -1,0 +1,19 @@
+.modal{
+  text-align: center;
+  line-height: 200px;
+  position: absolute;
+  left: 50%;
+  margin-left: -175px;
+  top: 35%;
+  width: 350px;
+  height: 200px;
+  background-color: lightyellow;
+  border-radius: 20px;
+  z-index: 100;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+.text{
+  font-size: 24px;
+  font-weight: bold;
+}

@@ -1,0 +1,8 @@
+.greenboard {
+  width: 90%;
+  background: green;
+  background: -webkit-radial-gradient(lightgreen, green);
+  border-radius: 25px;
+  margin: 30px auto;
+  padding: 20px;
+}
