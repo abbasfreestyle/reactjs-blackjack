@@ -8,7 +8,7 @@ class Hand extends Component {
     return (
         <div className="hand">
           <header className="header">{header}</header>
-          {score && <header className="header">Score: {score}</header>}
+          {score ? <header className="header">Score: {score}</header> : null}
           {children}
         </div>
     );
